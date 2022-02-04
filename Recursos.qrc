@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tienda_en.qm</file>
+        <file>tienda_fr.qm</file>
+        <file>tienda_al.qm</file>
+        <file>Recursos/factura.png</file>
+        <file>Recursos/economia-local.png</file>
+    </qresource>
+</RCC>
