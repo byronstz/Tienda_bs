@@ -5,5 +5,9 @@
         <file>tienda_al.qm</file>
         <file>Recursos/factura.png</file>
         <file>Recursos/economia-local.png</file>
+        <file>Recursos/anadir-al-carrito.png</file>
+        <file>Recursos/pago-en-efectivo.png</file>
+        <file>Recursos/cerrar-sesion.png</file>
+        <file>Recursos/impresion.png</file>
     </qresource>
 </RCC>

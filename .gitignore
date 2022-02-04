@@ -1,2 +1,13 @@
 *.user*
 *.autosave*
+*.recuros*
+*.tienda.pro*
+*.tienda_al.qm*
+*.tienda_en.qm*
+*.tienda_fr.qm*
+*.tienda_hi.qm*
+*.tienda_al.ts*
+*.tienda_en.ts*
+*.tienda_fr.ts*
+*.tienda_hi.ts*
+

@@ -10,8 +10,11 @@
     <height>537</height>
    </rect>
   </property>
+  <property name="cursor">
+   <cursorShape>SizeAllCursor</cursorShape>
+  </property>
   <property name="windowTitle">
-   <string>tienda</string>
+   <string>VIVERES 4 ESQUINAS</string>
   </property>
   <property name="windowIcon">
    <iconset resource="Recursos.qrc">

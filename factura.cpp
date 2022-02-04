@@ -56,10 +56,10 @@ void Factura::on_btnImprimir_clicked()
 
     if(archivo.open(QFile::WriteOnly | QFile::Truncate)){
     QTextStream salida(&archivo);
-    salida.operator<<("\n\t\t\tAbarrotes Luky\n");
-    salida.operator<<("Chillogallo,Santa Rosa 3,oe12-41\n");
-    salida.operator<<("Ruc:1792652553001\n");
-    salida.operator<<("Ret Factura: 001-403-30034647");
+    salida.operator<<("\n\t\t\tVIVERES 4 ESQUINAS\n");
+    salida.operator<<("La Merced, San Marcos S1-11\n");
+    salida.operator<<("Ruc:1706592605001\n");
+    salida.operator<<("Ret Factura: 001-306-30034791");
     salida.operator<<("\n-------------------------------------------------------------------\n");
     salida.operator<<("Datos del cliente\n\n");
     salida.operator<<("Cliente: "+c_nombre+"\t\t"+ "RUC/CI: "+c_cedula+"\n");
@@ -74,7 +74,8 @@ void Factura::on_btnImprimir_clicked()
     salida.operator<<("Subtototal:\t\t"+("$" + QString::number(c_subtotal,'f',2))+"\n");
     salida.operator<<("Iva(12%):  \t\t"+("$" + QString::number(c_iva,'f',2))+"\n");
     salida.operator<<("TOTAL:     \t\t"+("$" + QString::number(c_total,'f',2))+"\n\n");
-    salida.operator<<("\tGracias por confiar en nosotros :)");
+    salida.operator<<("\tGracias por confiar en nosotros "
+                        "Diseñado por Byron Socasi :) ");
 
     QMessageBox::information(this,"Guardar datos",
                              "Los datos han sido guardados exitosamente");

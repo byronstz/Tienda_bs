@@ -46,22 +46,22 @@ bool Tienda::checkVacio()
     ui->inCedula->setStyleSheet("QLineEdit{ background-color: green}");
 
     if(ui->inNombre->text()==""){
-        ui->inNombre->setStyleSheet("QLineEdit{ background-color: red}");
+        ui->inNombre->setStyleSheet("QLineEdit{ background-color: orange}");
     }else{
         ui->inNombre->setStyleSheet("QLineEdit{ background-color: green}");
     }
     if(ui->inTelefono->text()==""){
-        ui->inTelefono->setStyleSheet("QLineEdit{ background-color: red}");
+        ui->inTelefono->setStyleSheet("QLineEdit{ background-color: orange}");
     }else{
         ui->inTelefono->setStyleSheet("QLineEdit{ background-color: green}");
     }
     if(ui->inEmail->text()==""){
-        ui->inEmail->setStyleSheet("QLineEdit{ background-color: red}");
+        ui->inEmail->setStyleSheet("QLineEdit{ background-color: orange}");
     }else{
         ui->inEmail->setStyleSheet("QLineEdit{ background-color: green}");
     }
     if(ui->inDireccion->toPlainText()==""){
-        ui->inDireccion->setStyleSheet("QPlainTextEdit {background-color: red}");
+        ui->inDireccion->setStyleSheet("QPlainTextEdit {background-color: orange}");
     }else{
         ui->inDireccion->setStyleSheet("QPlainTextEdit {background-color: green}");
     }
@@ -75,7 +75,7 @@ bool Tienda::checkVacio()
         return true;
     }else{
     if(validarCedula(ui->inCedula->text())==false){
-    ui->inCedula->setStyleSheet("QLineEdit{ background-color: red}");
+    ui->inCedula->setStyleSheet("QLineEdit{ background-color: orange}");
         return false;
     }
     }
