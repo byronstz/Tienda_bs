@@ -25,7 +25,8 @@ FORMS += \
 
 TRANSLATIONS= tienda_en.ts\
               tienda_fr.ts\
-              tienda_al.ts
+              tienda_al.ts\
+              tienda_hi.ts
 
 
 # Default rules for deployment.
@@ -36,4 +37,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     Recursos.qrc
 
-DISTFILES +=
+DISTFILES += \
+    tienda_al.qm \
+    tienda_en.qm \
+    tienda_fr.qm \
+    tienda_hi.qm \
+    tienda_hi.ts

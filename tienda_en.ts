@@ -9,7 +9,7 @@
         <translation>Facture</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="54"/>
+        <location filename="factura.ui" line="58"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -18,95 +18,95 @@ p, li { white-space: pre-wrap; }
         <translation></translation>
     </message>
     <message>
-        <location filename="factura.ui" line="84"/>
+        <location filename="factura.ui" line="75"/>
         <source>Datos del cliente:</source>
         <translation>Client Data:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="97"/>
+        <location filename="factura.ui" line="88"/>
         <source>Detalles de Compra</source>
         <translation>Purchase Details</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="123"/>
+        <location filename="factura.ui" line="118"/>
         <source>Cantidad</source>
         <translation>Amount</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="136"/>
+        <location filename="factura.ui" line="131"/>
         <source>Producto</source>
         <translation>Product</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="149"/>
+        <location filename="factura.ui" line="144"/>
         <source>P. Unitario</source>
         <translation>Unit Price</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="162"/>
+        <location filename="factura.ui" line="157"/>
         <source>Subtotal</source>
         <oldsource>Subtototal</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="factura.ui" line="196"/>
+        <location filename="factura.ui" line="292"/>
         <source>               Nombre:</source>
         <translation>               Name:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="209"/>
+        <location filename="factura.ui" line="198"/>
         <source>          Cedula:</source>
         <translation>          Id Card:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="222"/>
+        <location filename="factura.ui" line="218"/>
         <source>              Fecha:</source>
         <translation>              Date:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="284"/>
+        <location filename="factura.ui" line="414"/>
         <source>Email:</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="factura.ui" line="297"/>
+        <location filename="factura.ui" line="322"/>
         <source>Direccion:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="349"/>
+        <location filename="factura.ui" line="376"/>
         <source>Telefono:</source>
         <translation>Phone:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="371"/>
+        <location filename="factura.ui" line="524"/>
         <source>Subtotal:</source>
         <translation>Subtotal:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="384"/>
-        <location filename="factura.ui" line="410"/>
-        <location filename="factura.ui" line="454"/>
+        <location filename="factura.ui" line="452"/>
+        <location filename="factura.ui" line="492"/>
+        <location filename="factura.ui" line="511"/>
         <source>0.00</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="factura.ui" line="397"/>
+        <location filename="factura.ui" line="479"/>
         <source>IVA (12%):</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="factura.ui" line="430"/>
+        <location filename="factura.ui" line="472"/>
         <source>TOTAL:</source>
         <translation>TOTAL:</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="486"/>
+        <location filename="factura.ui" line="550"/>
         <source>Imprimir</source>
         <translation>Print</translation>
     </message>
     <message>
-        <location filename="factura.ui" line="493"/>
+        <location filename="factura.ui" line="557"/>
         <source>Cerrar</source>
         <translation>Closse</translation>
     </message>
@@ -115,91 +115,92 @@ p, li { white-space: pre-wrap; }
     <name>Tienda</name>
     <message>
         <location filename="tienda.ui" line="14"/>
-        <source>Tienda</source>
-        <translation>Store</translation>
+        <source>tienda</source>
+        <oldsource>Tienda</oldsource>
+        <translation type="unfinished">Store</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="40"/>
+        <location filename="tienda.ui" line="54"/>
         <source>Cliente</source>
         <translation>Client</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="46"/>
+        <location filename="tienda.ui" line="68"/>
         <source>Cedula:</source>
         <translation>Id card:</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="56"/>
-        <location filename="tienda.ui" line="109"/>
+        <location filename="tienda.ui" line="90"/>
+        <location filename="tienda.ui" line="201"/>
         <source>Nombre:</source>
         <translation>Name:</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="66"/>
+        <location filename="tienda.ui" line="112"/>
         <source>Telefono:</source>
         <translation>Phone:</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="76"/>
+        <location filename="tienda.ui" line="134"/>
         <source>E-mail:</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="86"/>
+        <location filename="tienda.ui" line="156"/>
         <source>Direccion:</source>
         <translation>Address:</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="103"/>
+        <location filename="tienda.ui" line="188"/>
         <location filename="tienda.cpp" line="18"/>
         <source>Producto</source>
         <translation>Product</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="119"/>
+        <location filename="tienda.ui" line="223"/>
         <source>Cantidad:</source>
         <translation>Amount:</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="129"/>
+        <location filename="tienda.ui" line="245"/>
         <source>Precio:</source>
         <translation>Price:</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="136"/>
-        <location filename="tienda.ui" line="235"/>
-        <location filename="tienda.ui" line="261"/>
-        <location filename="tienda.ui" line="305"/>
+        <location filename="tienda.ui" line="255"/>
+        <location filename="tienda.ui" line="406"/>
+        <location filename="tienda.ui" line="439"/>
+        <location filename="tienda.ui" line="484"/>
         <source>0.00</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="152"/>
+        <location filename="tienda.ui" line="279"/>
         <source>Agregar</source>
         <translation>Add</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="168"/>
+        <location filename="tienda.ui" line="307"/>
         <source>Detalle de la compra</source>
         <translation>Purchase details</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="199"/>
+        <location filename="tienda.ui" line="356"/>
         <source>Finalizar</source>
         <translation>Finalize</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="222"/>
+        <location filename="tienda.ui" line="393"/>
         <source>Subtotal:</source>
         <translation>Subtotal:</translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="248"/>
+        <location filename="tienda.ui" line="426"/>
         <source>IVA (12%):</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="tienda.ui" line="281"/>
+        <location filename="tienda.ui" line="460"/>
         <source>TOTAL:</source>
         <translation>TOTAL:</translation>
     </message>

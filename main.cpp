@@ -13,13 +13,16 @@ int main(int argc, char *argv[])
         QTranslator traducion;
         //Idioma del sistema
         QString idioma=QLocale::system().name();
+
         // Dependiendo del idioma seleccionado, carga el archivo de tRaducción
         if (idioma == "fr_BE"){
-            traducion.load(":/tienda_fr.qm");
+            traducion.load("/tienda_fr.qm");
         }else if (idioma == "en_US"){
             traducion.load(":/tienda_en.qm");
         }else if(idioma == "de_DE"){
             traducion.load(":/tienda_al.qm");
+        }else if(idioma == "de_HI"){
+            traducion.load(":/tienda_hi.qm");
         }
         // Si es diferente de español, se instala la traducción en TODA la aplicación
         if (idioma != "es_Es"){
