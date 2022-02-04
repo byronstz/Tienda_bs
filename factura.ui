@@ -38,16 +38,20 @@
         <x>10</x>
         <y>10</y>
         <width>601</width>
-        <height>341</height>
+        <height>331</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);</string>
       </property>
       <widget class="QLabel" name="label">
        <property name="geometry">
         <rect>
          <x>180</x>
          <y>0</y>
-         <width>231</width>
-         <height>51</height>
+         <width>261</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="text">
@@ -58,25 +62,12 @@ p, li { white-space: pre-wrap; }
 &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#55ff00;&quot;&gt;Abarrotes Luky&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
-      <widget class="QPlainTextEdit" name="plainTextEdit">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>70</y>
-         <width>581</width>
-         <height>81</height>
-        </rect>
-       </property>
-       <property name="readOnly">
-        <bool>true</bool>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_2">
        <property name="geometry">
         <rect>
          <x>10</x>
          <y>40</y>
-         <width>91</width>
+         <width>101</width>
          <height>16</height>
         </rect>
        </property>
@@ -89,7 +80,7 @@ p, li { white-space: pre-wrap; }
         <rect>
          <x>10</x>
          <y>150</y>
-         <width>101</width>
+         <width>131</width>
          <height>16</height>
         </rect>
        </property>
@@ -105,6 +96,10 @@ p, li { white-space: pre-wrap; }
          <width>581</width>
          <height>131</height>
         </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:  rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
        </property>
        <property name="readOnly">
         <bool>true</bool>
@@ -166,44 +161,38 @@ p, li { white-space: pre-wrap; }
        <property name="geometry">
         <rect>
          <x>20</x>
-         <y>60</y>
+         <y>70</y>
          <width>571</width>
-         <height>87</height>
+         <height>71</height>
         </rect>
        </property>
        <widget class="QWidget" name="widget_6" native="true">
         <property name="geometry">
          <rect>
-          <x>9</x>
-          <y>9</y>
-          <width>274</width>
+          <x>-20</x>
+          <y>0</y>
+          <width>291</width>
           <height>69</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true"/>
         </property>
-        <widget class="QLabel" name="label_4">
+        <widget class="QLabel" name="label_5">
          <property name="geometry">
           <rect>
-           <x>-41</x>
-           <y>9</y>
+           <x>-20</x>
+           <y>20</y>
            <width>91</width>
            <height>20</height>
           </rect>
          </property>
-         <property name="text">
-          <string>               Nombre:</string>
-         </property>
-        </widget>
-        <widget class="QLabel" name="label_5">
-         <property name="geometry">
-          <rect>
-           <x>-25</x>
-           <y>28</y>
-           <width>71</width>
-           <height>20</height>
-          </rect>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="text">
           <string>          Cedula:</string>
@@ -213,10 +202,17 @@ p, li { white-space: pre-wrap; }
          <property name="geometry">
           <rect>
            <x>-30</x>
-           <y>50</y>
-           <width>75</width>
-           <height>16</height>
+           <y>40</y>
+           <width>111</width>
+           <height>21</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="text">
           <string>              Fecha:</string>
@@ -225,11 +221,15 @@ p, li { white-space: pre-wrap; }
         <widget class="QLabel" name="outNombre">
          <property name="geometry">
           <rect>
-           <x>60</x>
-           <y>10</y>
+           <x>90</x>
+           <y>0</y>
            <width>151</width>
            <height>16</height>
           </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:  rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
          </property>
          <property name="text">
           <string/>
@@ -238,11 +238,15 @@ p, li { white-space: pre-wrap; }
         <widget class="QLabel" name="outCedula">
          <property name="geometry">
           <rect>
-           <x>50</x>
-           <y>30</y>
-           <width>101</width>
+           <x>90</x>
+           <y>20</y>
+           <width>151</width>
            <height>16</height>
           </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:  rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
          </property>
          <property name="text">
           <string/>
@@ -251,47 +255,68 @@ p, li { white-space: pre-wrap; }
         <widget class="QLabel" name="outFecha">
          <property name="geometry">
           <rect>
-           <x>50</x>
-           <y>50</y>
-           <width>169</width>
+           <x>90</x>
+           <y>40</y>
+           <width>151</width>
            <height>16</height>
           </rect>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:  rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+         </property>
          <property name="text">
           <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>-40</x>
+           <y>-10</y>
+           <width>121</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>               Nombre:</string>
          </property>
         </widget>
        </widget>
        <widget class="QWidget" name="widget_7" native="true">
         <property name="geometry">
          <rect>
-          <x>289</x>
-          <y>9</y>
+          <x>280</x>
+          <y>20</y>
           <width>273</width>
           <height>81</height>
          </rect>
         </property>
-        <widget class="QLabel" name="label_7">
-         <property name="geometry">
-          <rect>
-           <x>10</x>
-           <y>10</y>
-           <width>51</width>
-           <height>16</height>
-          </rect>
-         </property>
-         <property name="text">
-          <string>Email:</string>
-         </property>
-        </widget>
         <widget class="QLabel" name="label_8">
          <property name="geometry">
           <rect>
            <x>10</x>
-           <y>30</y>
-           <width>61</width>
+           <y>0</y>
+           <width>71</width>
            <height>16</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="text">
           <string>Direccion:</string>
@@ -300,11 +325,15 @@ p, li { white-space: pre-wrap; }
         <widget class="QLabel" name="outDireccion">
          <property name="geometry">
           <rect>
-           <x>70</x>
-           <y>30</y>
+           <x>90</x>
+           <y>0</y>
            <width>191</width>
            <height>16</height>
           </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:  rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
          </property>
          <property name="text">
           <string/>
@@ -313,24 +342,15 @@ p, li { white-space: pre-wrap; }
         <widget class="QLabel" name="outTelefono">
          <property name="geometry">
           <rect>
-           <x>60</x>
-           <y>50</y>
-           <width>131</width>
+           <x>90</x>
+           <y>20</y>
+           <width>181</width>
            <height>16</height>
           </rect>
          </property>
-         <property name="text">
-          <string/>
-         </property>
-        </widget>
-        <widget class="QLabel" name="outEmail">
-         <property name="geometry">
-          <rect>
-           <x>50</x>
-           <y>10</y>
-           <width>151</width>
-           <height>16</height>
-          </rect>
+         <property name="styleSheet">
+          <string notr="true">background-color:  rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
          </property>
          <property name="text">
           <string/>
@@ -340,15 +360,59 @@ p, li { white-space: pre-wrap; }
          <property name="geometry">
           <rect>
            <x>10</x>
-           <y>50</y>
-           <width>51</width>
+           <y>20</y>
+           <width>71</width>
            <height>16</height>
           </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>MS Serif</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
          </property>
          <property name="text">
           <string>Telefono:</string>
          </property>
         </widget>
+       </widget>
+       <widget class="QLabel" name="outEmail">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>0</y>
+          <width>201</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:  rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>290</x>
+          <y>0</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>MS Serif</family>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Email:</string>
+        </property>
        </widget>
       </widget>
      </widget>
@@ -357,80 +421,14 @@ p, li { white-space: pre-wrap; }
        <rect>
         <x>30</x>
         <y>340</y>
-        <width>571</width>
-        <height>91</height>
+        <width>597</width>
+        <height>118</height>
        </rect>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
         <widget class="QWidget" name="widget_5" native="true">
-         <layout class="QFormLayout" name="formLayout_3">
-          <item row="0" column="0">
-           <widget class="QLabel" name="label_10">
-            <property name="text">
-             <string>Subtotal:</string>
-            </property>
-           </widget>
-          </item>
-          <item row="0" column="1">
-           <widget class="QLabel" name="outSubtotalF">
-            <property name="minimumSize">
-             <size>
-              <width>100</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>0.00</string>
-            </property>
-            <property name="textFormat">
-             <enum>Qt::PlainText</enum>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
-           <widget class="QLabel" name="label_11">
-            <property name="text">
-             <string>IVA (12%):</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QLabel" name="outIvaF">
-            <property name="minimumSize">
-             <size>
-              <width>100</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>0.00</string>
-            </property>
-            <property name="textFormat">
-             <enum>Qt::PlainText</enum>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="0">
-           <widget class="QLabel" name="label_12">
-            <property name="font">
-             <font>
-              <pointsize>14</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>TOTAL:</string>
-            </property>
-           </widget>
-          </item>
+         <layout class="QGridLayout" name="gridLayout">
           <item row="2" column="1">
            <widget class="QLabel" name="outTotalF">
             <property name="minimumSize">
@@ -458,6 +456,72 @@ color: rgb(170, 0, 0);</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_12">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>TOTAL:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>IVA (12%):</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="outSubtotalF">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>0.00</string>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::PlainText</enum>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLabel" name="outIvaF">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>0.00</string>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::PlainText</enum>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Subtotal:</string>
             </property>
            </widget>
           </item>

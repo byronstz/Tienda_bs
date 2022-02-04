@@ -52,7 +52,7 @@ void Factura::cargarDatos()
 void Factura::on_btnImprimir_clicked()
 {
 
-    QFile archivo("C:/Users/Byron/Desktop/segundo semstre/Programacion O.O/Tienda_BS/Tienda_BS/Facturas"+fechahora);
+    QFile archivo("C:/Users/Byron/Desktop/segundo semstre/Programacion O.O/Tienda_bs/Facturas/"+fechahora);
 
     if(archivo.open(QFile::WriteOnly | QFile::Truncate)){
     QTextStream salida(&archivo);
