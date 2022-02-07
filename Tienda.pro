@@ -29,6 +29,7 @@ TRANSLATIONS= tienda_en.ts\
               tienda_hi.ts
 
 
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
@@ -41,5 +42,5 @@ DISTFILES += \
     tienda_al.qm \
     tienda_en.qm \
     tienda_fr.qm \
-    tienda_hi.qm \
-    tienda_hi.ts
+    tienda_hi.qm
+

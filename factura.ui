@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Facturacion</string>
   </property>
   <property name="windowIcon">
    <iconset resource="Recursos.qrc">
@@ -110,8 +110,8 @@ color: rgb(0, 0, 0);</string>
         <rect>
          <x>80</x>
          <y>170</y>
-         <width>47</width>
-         <height>13</height>
+         <width>51</width>
+         <height>16</height>
         </rect>
        </property>
        <property name="text">
@@ -549,12 +549,20 @@ color: rgb(170, 0, 0);</string>
             <property name="text">
              <string>Imprimir</string>
             </property>
+            <property name="icon">
+             <iconset resource="Recursos.qrc">
+              <normaloff>:/Recursos/impresion.png</normaloff>:/Recursos/impresion.png</iconset>
+            </property>
            </widget>
           </item>
           <item>
            <widget class="QPushButton" name="btnCerrar">
             <property name="text">
              <string>Cerrar</string>
+            </property>
+            <property name="icon">
+             <iconset resource="Recursos.qrc">
+              <normaloff>:/Recursos/cerrar-sesion.png</normaloff>:/Recursos/cerrar-sesion.png</iconset>
             </property>
            </widget>
           </item>

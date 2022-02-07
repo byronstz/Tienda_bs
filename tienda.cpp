@@ -216,7 +216,7 @@ bool Tienda::validarCedula(QString as)
             vImpar[4]=vcedula[8];
 
 
-            //Punto 2. Multiplicacion impar
+            //Multiplicacion impar
             for(int i=0; i<5; i++)
             {
                 vImpar[i]=vImpar[i]*2;
@@ -226,7 +226,7 @@ bool Tienda::validarCedula(QString as)
                 }
                 sumaImpar += vImpar[i];
             }
-            //Punto 3. Sumar los pares
+            //Sumar los pares
             for(int i=0; i<4; i++)
             {
                 sumaPar += vPar[i];
@@ -234,12 +234,12 @@ bool Tienda::validarCedula(QString as)
 
             total = sumaPar + sumaImpar;
 
-            //Punto 4. Se obtiene el modulo;
+            //Se obtiene el modulo
 
             nveri = total%10;
 
 
-            //Punto 5. Numero verificador
+            //Numero verificador
             if(nveri==0)
             {
                 if(nveri==vcedula[9])

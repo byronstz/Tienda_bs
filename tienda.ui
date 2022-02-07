@@ -11,7 +11,10 @@
    </rect>
   </property>
   <property name="cursor">
-   <cursorShape>SizeAllCursor</cursorShape>
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
   </property>
   <property name="windowTitle">
    <string>VIVERES 4 ESQUINAS</string>
@@ -276,10 +279,14 @@ color: rgb(0, 0, 0);</string>
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(0, 0, 255);</string>
+             <string notr="true">background-color: rgb(0, 85, 255);</string>
             </property>
             <property name="text">
              <string>Agregar</string>
+            </property>
+            <property name="icon">
+             <iconset resource="Recursos.qrc">
+              <normaloff>:/Recursos/anadir-al-carrito.png</normaloff>:/Recursos/anadir-al-carrito.png</iconset>
             </property>
            </widget>
           </item>
@@ -352,11 +359,15 @@ color: rgb(255, 255, 255);</string>
              </font>
             </property>
             <property name="styleSheet">
-             <string notr="true">background-color: rgb(0, 255, 0);
-color: rgb(255, 0, 0);</string>
+             <string notr="true">background-color: rgb(0, 85, 255);
+</string>
             </property>
             <property name="text">
              <string>Finalizar</string>
+            </property>
+            <property name="icon">
+             <iconset resource="Recursos.qrc">
+              <normaloff>:/Recursos/pago-en-efectivo.png</normaloff>:/Recursos/pago-en-efectivo.png</iconset>
             </property>
            </widget>
           </item>

@@ -5,7 +5,7 @@
 #include <QInputDialog>
 #include <QLocale>
 #include <QDebug>
-
+//ICONOS OBTENIDOS DE FLATICON https://www.flaticon.es/
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
             traducion.load(":/tienda_en.qm");
         }else if(idioma == "de_DE"){
             traducion.load(":/tienda_al.qm");
-        }else if(idioma == "de_HI"){
+        }else if(idioma == "hi_HI"){
             traducion.load(":/tienda_hi.qm");
         }
         // Si es diferente de español, se instala la traducción en TODA la aplicación
